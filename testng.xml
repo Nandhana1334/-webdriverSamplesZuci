@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SampleSuite">
+	<test name ="ModuleOneTest">
+  <!--<test thread-count="5" name="ModuleTest">
+	 <test name ="ModuleOneTest">-->
+	 <classes>
+		
+		 <class name ="testScripts.PlayWright"/>
+		 
+	 </classes>
+	 </test>
+	 </suite>
+	 
+	 
+	 <!--<suite name="Your Suite">
+    <test name="Your Test">
+        <classes>
+            <class name="DemoBlaze.DemoBlaze1">
+                <methods>
+                    <include name="searchItem">
+                        <parameter name="name" value="YourSearchItemValue" />
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>-->
+
+	 
+	<!--  <groups>
+		  <define name ="SmokeTest">
+			  <include name ="feature3"/>
+		  </define>
+		  <define name = "RegressionTest">
+			  <include name ="feature1"/>
+			  <include name ="feature2"/>
+		</define>
+		  <run>
+			  <include name ="feature1"/>
+			  <exclude name ="RegressionTest"/>
+		  </run>
+	  </groups>-->
+	  
+	  <!--
+	  <parameter name ="browser" value ="edge"/>
+	  <classes><class name="testScripts.LoginPageTest"/>
+	  </classes>-->
+   <!-- <classes>
+		
+      <class name="testScripts.GoogleSearchTest"/>
+      <class name="testScripts.DropdownTest"/>
+      <class name="testScripts.Suggestions"/>
+      <class name="testScripts.WebTableTest2"/>
+      <class name="testScripts.PopupWinTest"/>
+      <class name="testScripts.JSExecTest"/>
+      <class name="testScripts.LoginPageTest"/>
+      <class name="testScripts.WebTableTest"/>
+      <class name="testScripts.DisplayMessage"/>
+      <class name="testScripts.chkRadioTest"/>
+      <class name="testScripts.Automation"/>
+      <class name="testScripts.FileDownload"/>
+      <class name="testScripts.FileUpload"/>
+      <class name="testScripts.AutoComplete"/>
+      <class name="testScripts.PageLoadTest"/>
+      <class name="testScripts.HideImageTest"/>
+      <class name="testScripts.AlertTest"/>
+      <class name="testScripts.PlayWright"/>
+      <class name="testScripts.IFrameTest"/>
+      <class name="testScripts.ExpWaitTest"/>
+      <class name="testScripts.MouseActionsTest"/>
+      <class name="testScripts.DemoTest"/>
+      
+    </classes>-->
+    <!--<classes>
+		<class name ="groupScripts.Sample2"/>
+		<class name = "groupScripts.Sample"/>
+	</classes>-->
+  
+
+<!--TestSuite  ->Tests ->Classes->test methods -->
