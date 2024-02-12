@@ -36,7 +36,6 @@ public class DBEmployeeTest {
 			  String query1 ="SELECT emp_name FROM Employee WHERE emp_id IN (SELECT emp_id FROM emp_dep WHERE dept_id IN (SELECT dept_id FROM Department WHERE dept_name = 'HR'))";
 		        ResultSet res1 = stmt.executeQuery(query1);
 
-		        // Iterate through the ResultSet to retrieve the results
 		        while (res1.next()) {
 		            System.out.println(res1.getString("emp_name"));
 		        }
