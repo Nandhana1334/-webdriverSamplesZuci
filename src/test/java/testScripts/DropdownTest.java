@@ -31,6 +31,6 @@ public class DropdownTest {
 	  {
 		  System.out.println(e.getText());
 	  } 
-	  mulSel.deselectByValue("Florida");
+	  mulSel.deselectByValue("Washington");
   }
 }
