@@ -6,7 +6,7 @@
 	 <test name ="ModuleOneTest">-->
 	 <classes>
 		
-		 <class name ="testScripts.PlayWright"/>
+		 <class name ="testScripts.SampleOneTest"/>
 		 
 	 </classes>
 	 </test>
